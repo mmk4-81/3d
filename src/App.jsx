@@ -1,12 +1,17 @@
-
+import Canvas from "./canvas";
+import Customizer from "./pages/Customizer";
+import Home from "./pages/Home";
 
 function App() {
-
   return (
     <>
-      <p>mmk</p>
+      <main className="app tranisition-all ease-in">
+        <Home />
+        <Canvas />
+        <Customizer />
+      </main>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
